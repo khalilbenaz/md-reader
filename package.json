@@ -1,7 +1,7 @@
 {
   "name": "md-to-pdf-app",
   "version": "1.0.0",
-  "description": "Markdown editor with PDF export for macOS and Windows",
+  "description": "MD Reader : Markdown editor with PDF export for macOS and Windows",
   "main": "main.js",
   "scripts": {
     "bundle": "esbuild renderer/editor-src.js --bundle --outfile=renderer/editor-bundle.js --format=iife",
@@ -39,7 +39,8 @@
   },
   "build": {
     "appId": "com.lilou.mdtopdf",
-    "productName": "MD to PDF",
+    "productName": "MD Reader",
+    "icon": "build/icon.png",
     "files": [
       "main.js",
       "preload.js",
@@ -66,6 +67,7 @@
       }
     },
     "win": {
+      "icon": "build/icon.ico",
       "target": [
         { "target": "nsis", "arch": ["x64"] }
       ]
@@ -76,7 +78,7 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "MD to PDF"
+      "shortcutName": "MD Reader"
     },
     "fileAssociations": [
       {

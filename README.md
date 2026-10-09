@@ -1,4 +1,4 @@
-# MD to PDF
+# MD Reader
 
 Éditeur Markdown multi-plateforme (macOS & Windows) avec aperçu en temps réel, export PDF/HTML, coloration syntaxique, KaTeX, Mermaid et thème clair/sombre.
 
