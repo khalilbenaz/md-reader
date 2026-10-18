@@ -4,7 +4,7 @@
 #define MyAppName "MD Reader"
 #define MyAppVersion "1.5.1"
 #define MyAppPublisher "khalilbenaz"
-#define MyAppURL "https://github.com/khalilbenaz/md-to-pdf-app"
+#define MyAppURL "https://github.com/vantaflow/md-to-pdf-app"
 #define MyAppExeName "MD Reader.exe"
 #define MyAppId "A6F2C8B3-7E4D-4F1A-9B2C-1D3E5F6A7B8C"
 #define SourceDir "dist\MD Reader-win32-x64"

@@ -180,7 +180,7 @@ Les installateurs sont disponibles dans l'onglet [Releases](../../releases) du d
 
 ```bash
 # 1. Cloner le dépôt
-git clone https://github.com/khalilbenaz/md-to-pdf-app.git
+git clone https://github.com/vantaflow/md-to-pdf-app.git
 cd md-to-pdf-app
 
 # 2. Installer les dépendances
@@ -208,7 +208,7 @@ Le `.dmg` est produit dans `dist/` (versions `arm64` et `x64`).
 
 ```powershell
 # 1. Cloner le dépôt
-git clone https://github.com/khalilbenaz/md-to-pdf-app.git
+git clone https://github.com/vantaflow/md-to-pdf-app.git
 cd md-to-pdf-app
 
 # 2. Installer les dépendances
@@ -340,7 +340,7 @@ boîte d'impression système, pour que son sommaire porte lui aussi ses numéros
 
 ## 📄 Licence
 
-[MIT](./LICENSE) © 2026 Khalil Ben Azzouz
+[MIT](./LICENSE) © 2026 vantaflow
 
 ---
 
